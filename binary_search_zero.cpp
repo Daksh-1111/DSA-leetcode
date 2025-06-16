@@ -8,7 +8,7 @@ void binary_search(int arr[], int key,int n ){
         int mid = low + (high - low)/2;
         
         if(arr[mid]==key){
-            cout<<"array found at index :"<<mid;
+            cout<<"key found at index :"<<mid;
             break;
         }
        else if(key<arr[mid]){
